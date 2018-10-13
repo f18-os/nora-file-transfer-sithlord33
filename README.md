@@ -1,8 +1,10 @@
 # nets-tcp-framed-race
 
+Checking commits
+
 This lab will showcase race conditions and threads.
 
-In the previous lab, the server supported multiple clients via the use of `os.fork()`. However `FramedThreadServer.py` uses threds instead.
+In the previous lab, the server supported multiple clients via the use of `os.fork()`. However `FramedThreadServer.py` uses threads instead.
 
 One problem with your previous lab, which we did not mention before, is what happens two file transfers occur at the same time for the same file. It is likely that the resulting file will be a jumbled mess and unrecognizeable from the original.
 

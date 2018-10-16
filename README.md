@@ -1,7 +1,5 @@
 # nets-tcp-framed-race
 
-Checking commits
-
 This lab will showcase race conditions and threads.
 
 In the previous lab, the server supported multiple clients via the use of `os.fork()`. However `FramedThreadServer.py` uses threads instead.
